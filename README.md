@@ -2,17 +2,20 @@
 Backend for Virtual Planner
 
 
-How to use
+#How to use
 Clone this respository or something idk
 
 Run manage.py in virtual_planner
 
 
-Endpoints:
+#Endpoints:
 
 /goal/ Shows all goals
+
 /goal/weekly/ Shows all goals with goal_type="weekly"
+
 /goal/monthly/ Shows all goals with goal_type="monthly"
+
 
 /work/ Shows all work objects
 /work/daily/ shows all work objects with work_type = "daily"
