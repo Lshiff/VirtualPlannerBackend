@@ -10,20 +10,20 @@ Run manage.py in virtual_planner
 
 # Endpoints:
 
-/goal/ Shows all goals
+/goal/                   Shows all goals
 
-/goal/weekly/ Shows all goals with goal_type="weekly"
+/goal/weekly/            Shows all goals with goal_type="weekly"
 
-/goal/monthly/ Shows all goals with goal_type="monthly"
+/goal/monthly/           Shows all goals with goal_type="monthly"
 
 
-/work/ Shows all work objects
+/work/                   Shows all work objects
 
-/work/daily/ shows all work objects with work_type = "daily"
+/work/daily/             Shows all work objects with work_type = "daily"
 
-/work/after_school/ Shows all work objects with work_type = "after_school"
+/work/after_school/      Shows all work objects with work_type = "after_school"
 
-/work/daily/<int>/ Shows all work objects with work_type = "daily" AND due_date corresponds to the day of the week of <int> (0-6, Sun-Sat)
+/work/daily/<int>/       Shows all work objects with work_type = "daily" AND due_date corresponds to the day of the week of <int> (0-6, Sun-Sat)
   
 /work/after_school/<int>/ Same as ^^ but with work_type="after_school"
   
