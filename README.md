@@ -23,9 +23,9 @@ Run manage.py in virtual_planner
 
 /work/after_school/      Shows all work objects with work_type = "after_school"
 
-/work/daily/<int>/       Shows all work objects with work_type = "daily" AND due_date corresponds to the day of the week of <int> (0-6, Sun-Sat)
+/work/daily/0-6/       Shows all work objects with work_type = "daily" AND due_date corresponds to the day of the week of <int> (0-6, Sun-Sat)
   
-/work/after_school/<int>/ Same as ^^ but with work_type="after_school"
+/work/after_school/0-6/ Same as ^^ but with work_type="after_school"
   
 # Posting:
 
